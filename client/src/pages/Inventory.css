@@ -1,0 +1,62 @@
+.inventory-page {
+  padding: 20px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.badge-inbound {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.badge-outbound {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.badge-adjustment {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .page-header button {
+    width: 100%;
+  }
+}
